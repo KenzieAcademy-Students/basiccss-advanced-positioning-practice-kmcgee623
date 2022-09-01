@@ -1,0 +1,33 @@
+body { 
+  background-color: lightblue;
+}
+
+article {
+  padding: 20px;
+  background: #ffffff;
+  max-width: 600px;
+  margin: 50px auto;
+}
+
+article h1 {
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  margin: 1em 2em;
+  padding-bottom: 0.5em;
+}
+
+.shadow {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.background-box-one {
+ 
+}
+
+.background-box-two {
+ 
+}
+
+.background-box-three {
+  
+}
