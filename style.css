@@ -1,4 +1,4 @@
-body { 
+body {
   background-color: lightblue;
 }
 
@@ -16,18 +16,57 @@ article h1 {
   padding-bottom: 0.5em;
 }
 
-.shadow {
-  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
-}
 
 .background-box-one {
- 
+  background-color: #7fffd4;
+  position: absolute;
+  width: 90vw;
+  height: 300px;
+  top: 10%;
+  left: 0;
+  z-index: -1;
 }
 
 .background-box-two {
- 
+  background-color: #84ff7f;
+  position: absolute;
+  width: 90vw;
+  height: 300px;
+  top: 50%;
+  right: 0;
+  z-index: -1;
 }
 
 .background-box-three {
-  
+  background-color: #b3f870;
+  position: absolute;
+  width: 90vw;
+  height: 300px;
+  top: 85%;
+  left: 0;
+  z-index: -1;
 }
+
+img {
+  height: 150px;
+  float: right;
+}
+
+.dogPic {
+  float: left;
+}
+
+.did-you-know {
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  border: 3px dotted;
+  position: fixed;
+  top: 80px;
+  right: 50px;
+}
+
+
+/*Sources: I collaborated with Brooks Legg. I also used the following links for help and guidance.
+https://www.w3schools.com/cssref/css_units.asp  https://www.unitsconverters.com/en/Percent-To-Pixel/Unittounit-4854-4853?MeasurementId=95&From=4854&To=4853 https://www.w3schools.com/css/css_positioning.asp
+https://stackoverflow.com/questions/21624014/css-are-view-height-vh-and-view-width-vw-units-widely-supported https://css-tricks.com/almanac/properties/z/z-index/
